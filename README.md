@@ -1,6 +1,6 @@
 # CORDIC
 
-CORDIC (COordinate Rotation DIgital Computer) is a hardware-efficient iterative method which uses rotations to calculate a wide range of elementary functions. It is a hardware efficient method because, by implementing CORDIC algorithm, we can use simple shifts and add instead of multipier etc. to calculate complex trignometric functions such as sine, cosine, tangent, and some inverse trignometric functions also.  In this project, I have  implemented CORDIC to calculate sine and cosine functions.
+CORDIC (COordinate Rotation DIgital Computer) is a hardware-efficient iterative method which uses rotations to calculate a wide range of elementary functions. It is a hardware efficient method because, by implementing CORDIC algorithm, we can use simple shifts and add instead of multiplier etc. to calculate complex trignometric functions such as sine, cosine, tangent, and some inverse trignometric functions also.  In this project, I have  implemented CORDIC to calculate sine and cosine functions.
 
 The key idea behind the algorithm lies in the iterative rotations performed on the input angle inorder to breakdown the input angle into certain various angles. Now, if we select these certain various angles to be of the form 2^(-k) where k = 0 to infinity, then the calculations can be made using simple right or left shifts instead of hardware-straining multipiers. Then afterwards, setting the value of Xin = 1 and Yin = 0, we get the value of cosine as Xout and sine as Yout.
 
